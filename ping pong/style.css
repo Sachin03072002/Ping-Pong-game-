@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+#container{
+    position: relative;
+    
+}
+#bar-top{
+	width: 20%;
+    height: 2%;
+    background-color: #3268c3ba;
+    top: 0;
+    left: 0;
+    position: fixed;
+    border-radius: 7rem;
+    display: inline-block;
+}
+#bar-bottom{
+	width: 20%;
+    height: 2%;
+    background-color: #3268c3ba;
+    top: 98%;
+    left: 0%;
+    position: fixed;
+    border-radius: 7rem;
+}
+#ball{
+	width: 2%;
+    height: 4%;
+    background-color: #24157c;
+    position: fixed;
+    border-radius: 50%;
+    top: 10%;
+    left:10%;
+}
+#rules{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /*border: 2px solid red;*/
+    left: 0;
+    top: 0;
+    background-color: grey;
+    /*opacity: 0;*/
+    animation: all 0.1s ease-in-out;
+
+}
+#rules-container{
+    top: 28%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    /*border: 2px solid red;*/
+    position: fixed;
+    /*opacity: 0;*/
+}
+#rules-container h2{
+    left: 33%;
+}
